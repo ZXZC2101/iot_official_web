@@ -1,0 +1,105 @@
+.content .banner_box{
+    margin-top: 90px;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 60px;
+    height: auto;
+    width: 96%;
+    /*background-color: white;*/
+}
+
+.content .banner_box .text{
+    justify-content: center;
+    text-align: center;
+    height: 90px;
+    width: 33%;
+    /*margin: 50px;*/
+    float: left;
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: mainpage_key;
+    transform: rotate(-25deg) skew(15deg);
+    transition: 0.4s;
+}
+
+.content .banner_box .text a{
+    text-decoration: none;
+    color: white;
+}
+
+.content .banner_box .text:hover{
+    color: white;
+    font-size: 50px;
+    font-family: mainpage_key;
+
+    transform: rotate(-15deg) skew(15deg);
+    text-shadow:    -1px 1px 0 black,
+                    -2px 2px 0 red,
+                    -3px 3px 0 lightgray,
+                    -4px 4px 0 lightgray,
+                    -5px 5px 0 lightgray,
+                    -6px 6px 0 lightgray,
+                    -7px 7px 0 lightgray,
+                    -8px 8px 0 lightgray,
+                    -9px 9px 0 lightgray,
+                    -10px 10px 2px black;
+    transition: 0.3s;
+}
+
+
+
+.resource_content{
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.source_item{
+    margin-top: 10px;
+    height: auto;
+}
+
+.source_item{
+    margin-left:2%;
+    margin-right: 2%;
+    width:96%;
+    height:0;
+    padding-bottom: 200px;
+    overflow:hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    transition: 0.3s;
+}
+
+.source_item:hover{
+    margin-left:2%;
+    margin-right: 2%;
+    width:96%;
+    height:0;
+    padding-top: 100px;
+    padding-bottom: 280px;
+    overflow:hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    transition: 0.4s;
+}
+
+.source_item span{
+    position: relative;
+    top:70px;
+    color: ghostwhite;
+    font-family: TTle;
+    font-size: 40px;
+    padding-left: 20px;
+}

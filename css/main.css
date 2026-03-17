@@ -1,0 +1,200 @@
+ body{
+     background-color: rgb(11,52,110);
+ }
+
+ /*定义网页内容显示部分的宽*/
+ .content{
+     margin-left: 10%;
+     margin-right: 20%;
+     width: 80%;
+     height: auto;
+ }
+
+ /*定义导航栏的内容空间*/
+ .nav{
+     /*background-color: aliceblue;*/
+     margin: 2% 0 2% 0;
+     width: 100%;
+     height: 80px;
+     border-bottom: whitesmoke 2px solid;
+ }
+
+ .nav .nav_content{
+     height: 100%;
+     width: 100%;
+     /*background-color: aqua;*/
+ }
+
+ /*定义导航栏的logo部分*/
+ .nav .nav_content .lab_logo{
+     height: 80px;
+     float: left;
+ }
+
+ .nav .nav_content .lab_logo img{
+     height: 80px;
+ }
+
+/* 定义导航栏的链接部分*/
+ .nav .nav_content .nav_links{
+     float: right;
+     height: 80px;
+ }
+
+ .nav .nav_content .nav_links ul li{
+     text-align: center;
+     list-style-type: none;
+     float: left;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-top: 50px;
+     height: 20px;
+     transition: 0.1s;
+ }
+
+ .nav .nav_content .nav_links ul li a{
+     color: whitesmoke;
+     text-decoration: none;
+     text-align: center;
+     line-height: 20px;
+     font-size: 20px;
+     font-family: navigation;
+ }
+
+ .nav .nav_content .nav_links ul li:hover{
+     /*当鼠标悬停在选项上面的时候，链接部分有一个向上的跳动*/
+     text-align: center;
+     list-style-type: none;
+     float: left;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-top: 45px;
+     height: 20px;
+     transition: 0.2s;
+ }
+
+ .nav .nav_content .nav_links ul li .login_bo a{
+    font-family: mainpage_key;
+}
+
+ /*主页里的工作展示*/
+ .Work_show{
+     float: left;
+     margin: 50px 0 20px 0;
+     height: auto;
+     width: 100%;
+     /*background-color: gray;*/
+ }
+
+/*每一个项目*/
+.item_show{
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    float: left;
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+}
+
+/*项目图片和介绍*/
+.item_content{
+    float: left;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+/*项目图片*/
+.item_show .item_content .item_img img{
+    float: left;
+    height: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    max-height: 100%;
+    max-width: 50%;
+    overflow: hidden;
+    border-radius:5px;
+}
+
+ .item_show .item_content .item_info ul{
+     margin-top: 20px;
+     float: left;
+     margin-left: 20px;
+     max-width: 50%;
+     list-style-type: none;
+     color: white;
+     font-size: 20px;
+     font-family: navigation;
+ }
+ .item_show .item_content .item_info .item_year a{
+     text-decoration: none;
+     color: white;
+
+ }
+
+ .item_show .item_content .item_info .item_year a:hover{
+     text-decoration: none;
+     color: white;
+    font-size: 25px;
+ }
+
+
+.item_year{
+
+    font-family: mainpage_key;
+
+}
+
+
+ /*主页含有照片背景的选项卡*/
+ .main_content{
+     float: left;
+     margin-top: 40px;
+     height: auto;
+     width: 100%;
+ }
+
+ .block_title{
+     border-top: white 1px solid;
+     padding-top: 20px;
+     height: 50px;
+     width: 100%;
+     /*margin-top: 5px;*/
+     margin-bottom: 5px;
+     float: left;
+     margin-top: 30px;
+     color: white;
+     font-family: navigation;
+     font-size: 40px;
+     text-align: center;
+     justify-content: center;
+ }
+
+
+
+
+
+ .footage{
+     float: left;
+     margin-top: 20px;
+     height: 50px;
+     width: 100%;
+     /*background-color: antiquewhite;*/
+     font-family: footage;
+ }
+
+ .footage .copyright{
+     text-align: center;
+     justify-content: center;
+     margin-top: 10px;
+     padding-bottom: 30px;
+     margin-bottom: 40px;
+     color: ghostwhite;
+ }
+
+
+ .big_pic img{
+     height: auto;
+     width: 100%;
+ }
